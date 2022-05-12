@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+form {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #333;
+}
+
+label {
+  display: block;
+}
+
+span {
+  display: inline-block;
+  width: 10em;
+  text-align: right;
+}
+
+button {
+  margin: 2em 2em 0;
+}
+
+#response {
+  min-height: 1.5em;
+  background-color: #000;
+}

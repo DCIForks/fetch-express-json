@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Demo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <form>
+    <label for="name">
+      <span>Name:</span>
+      <input type="text" name="name" id="name" value="Jason">
+    </label>
+    <label for="team">
+      <span>Team:</span>
+      <input type="text" name="team" id="team" value="The Argonauts">
+    </label>
+    <label for="goal">
+      <span>Golden Fleece taken:</span>
+      <input type="checkbox" name="goal" id="goal">
+    </label>
+    <button
+      type="submit"
+      id="submit"
+    >
+      Send by Fetch
+    </button>
+    
+    <pre id="response"></pre>
+    
+  </form>
+  
+  <script defer src="js/script.js"></script>
+</body>
+</html>
